@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Avon</title>
+
+	<!--ICONO Y CSS-->
+	<link rel="stylesheet" type="text/css" href="./Styles/estp2.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body> 
+
+<!--iNICIO LOGIN Y BUSCAR-->
+<div id="d1">
+	<div class="d1">
+		<a href="index.html"><img src="./Img/avon-logo.png" ></a>
+
+
+		<input type="text" name="search" placeholder="Buscar Producto" class="src" autocomplete="off">
+
+		<a href="pag3.html"><img id="r" src="./Img/img3.png" width="35px" height="35px"></a>
+		
+
+		
+
+		
+	</div>
+</div>
+
+
+
+<!--MENU-->
+<div id="d3">
+<header>
+	<nav class="navega">
+	<ul class="menu">
+		<li><a href="pag2.html">Inicio</a></li>
+		<li><a href="pag3.html">Usuario</a></li>
+		<li><a href="#li">contactos</a>
+		<li><a href="#">Productos</a>
+
+		<ul class="submenu">
+		<li><a href="">Perfumeria</a>
+		<ul class="submenu2">
+		<li><a href="#productos">soft Musk</a></li>
+		<li><a href="#productos">Musk fesh</a></li>
+		<li><a href="#productos">Se X4 Actitude</a></li>
+		<li><a href="#productos">Away Glamour</a></li>
+		<li><a href="#productos">Homem Acqua</a></li>
+		
+		</ul>
+
+
+
+		</li>
+		<li><a href="">Maquillaje</a>
+		<ul class="submenu2">
+		<li><a href="#productos">Polvo Compacto</a></li>
+		<li><a href="#productos">Base Correctora</a></li>
+		<li><a href="#productos">Labial Luminous</a></li>
+		<li><a href="#productos">Brocha Para Polvo</a></li>
+		<li><a href="#productos">Cuarteto De Sombras</a></li>
+		
+
+			
+		</ul>
+
+		</li>
+		<li><a href="">Higiene Personal</a>
+
+		<ul class="submenu2">
+		<li><a href="#productos">Crema Facial</a></li>
+		<li><a href="#productos">Acondicionador</a></li>
+		<li><a href="#productos">spary Con Destellos</a></li>
+		<li><a href="#productos">Shampoo</a></li>
+		<li><a href="#productos">Crema Para Peinar</a></li>
+		</ul>
+
+
+		</li>
+		</ul>
+		</li>
+		</ul>
+		
+	</nav>
+</header>
+</div>
+
+
+
+
+
+<!--Slider Imagenes Que Se Mueven hacia la derecha-->
+
+<div id="d2">
+<div class="slider" >
+		<ul>
+			<li><img src="./Img/img10.jpg" height="500px" width="100%"></li>
+			<li><img src="./Img/img11.jpg"  height="500px" width="100%"></li>
+			<li><img src="./Img/img13.jpg"  height="500px" width="100%"></li>
+			<li><img src="./Img/img12.jpg"  height="500px" width="100%"></li>
+			
+
+		</ul>
+
+</div></br>
+</div></br>
+
+
+
+
+
+
+
+<!--
+
+Productos
+-->
+
+
+
+<div class="slider2" id="productos">
+<ul>
+	<li><img src="./Img/p1.png">
+	<center>
+		<a href=""><h4>Polvo Compacto Facial</h4></a>
+	<img src="Img/clf4.PNG"></br>
+
+	<h6>$ 16.900</h6>
+  <br>
+	<form action="carrito.php" method="POST">
+
+	<input type="hidden" value="Polvo Compacto Facial" name="pro">  
+	<input type="hidden" value="16900" name="pre" > 
+  <input id="carito"  type="submit" value="Añadir A Carrito">
+    </form>
+
+	</center>
+
+
+
+	</li></br>
+	<li><img src="./Img/p2.png">
+	<center>
+	<a href=""><h4>Soft Musk Para Ella</h4></a>
+	<img src="./Img/clf4.png"></br>
+
+	<h6>$ 29.900</h6>
+
+	<form action="carrito.php" method="POST">
+
+	<input type="hidden" value="Soft Musk Para Ella" name="pro">  
+	<input type="hidden" value="29900" name="pre" > 
+	<input type="submit" value="Añadir A Carrito">
+    </form>
+
+	</center></br>
+
+
+	</li>
+	<li><img src="./Img/p3.png">
+	<center>
+	<a href=""><h4>Crema Facial Con Protinol</h4></a>
+	<img src="./Img/clf4.png"></br>
+
+	<h6>$ 57.900</h6>
+	
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Crema Facial Con Protinol" name="pro"> 
+	<input type="hidden" value="57900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	
+	</form>
+	</center>
+
+
+
+	</li>
+	<li><img src="./Img/p4.png">
+     <center>
+
+	<a href=""><h4>Spray Con Destellos Blossoming</h4></a>
+	<img src="./Img/clf3.png"></br>
+
+	<h6>$ 11.900</h6>
+	<form action="carrito.php" method="POST">
+
+	<input type="hidden" value="Spray Con Destellos Blossoming" name="pro">  
+	<input type="hidden" value="11900" name="pre" > 
+	<input type="submit" value="Añadir A Carrito">
+    </form>
+
+	</center>
+
+	</li>
+	<li><img src="./Img/p5.png">
+
+	<center>
+
+	<a href=""><h4>Musk Fresh Para Él Eau De Toilette</h4></a>
+	<img src="./Img/clf4.png"></br>
+
+	<h6>$ 29.900</h6>
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Musk Fresh Para Él Eau De Toilette" name="pro"> 
+	<input type="hidden" value="29900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+
+	</center>
+
+
+	</li>
+</ul>
+
+	
+</div></br>
+
+<div class="slider2">
+<ul>
+	<li><img src="./Img/p6.jpg">
+	<center>
+	<a href=""><h4>Labial Luminous Matte</h4></a>
+	<img src="./Img/clf3.png"></br>
+
+	<h6>$ 16.900</h6></br>
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Labial Luminous Matte" name="pro"> 
+	<input type="hidden" value="16900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+
+	</center>
+
+
+
+	</li></br>
+	<li><img src="./Img/p15.jpg">
+	<center>
+	<a href=""><h4>Se X4 Lation Attitude</h4></a>
+	<img src="./Img/clf5.png"></br>
+
+	<h6>$ 46.900</h6></br>
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Se X4 Lation Attitude" name="pro"> 
+	<input type="hidden" value="46900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+
+	</center></br>
+
+
+	</li>
+	<li><img src="./Img/p7.jpg">
+	<center>
+	<a href=""><h4>Brocha Para Polvo</h4></a>
+	<img src="./Img/clf4.png"></br>
+
+	<h6>$ 16.900</h6></br>
+    <form action="carrito.php" method="POST">
+	<input type="hidden" value="Brocha Para Polvo" name="pro"> 
+	<input type="hidden" value="16900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+	</center>
+
+
+
+	</li>
+	<li><img src="./Img/p14.jpg">
+     <center>
+
+	<a href=""><h4>Homem Acqua Para Él Colonia Spray</h4></a>
+	<img src="./Img/clf2.png"></br>
+
+	<h6>$ 18.900</h6></br>
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Homem Acqua Para Él Colonia Spray" name="pro"> 
+	<input type="hidden" value="18900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+
+	</center>
+
+	</li>
+	<li><img src="./Img/p8.jpg">
+
+	<center>
+
+	<a href=""><h4>Cuarteto De Sombras Para Párpado</h4></a>
+	<img src="./Img/clf4.png"></br>
+
+
+	<h6>$ 29.900</h6></br>
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Cuarteto De Sombras Para Párpado" name="pro"> 
+	<input type="hidden" value="29900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+
+	</center>
+
+
+	</li>
+</ul>
+
+	
+</div></br>
+
+<div class="slider2">
+<ul>
+	<li><img src="./Img/p9.jpg">
+	<center>
+	<a href=""><h4>Base Correctora Multibeneficios</h4></a>
+	<img src="./Img/clf3.png"></br>
+
+	<h6>$ 19.900</h6></br>
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Base Correctora Multibeneficios" name="pro"> 
+	<input type="hidden" value="19900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+
+	</center>
+
+
+
+	</li></br>
+	<li><img src="./Img/p13.jpg">
+	<center>
+	<a href=""><h4>Acondicionador Brillo </h4></a>
+	<img src="./Img/clf5.png"></br>
+
+	<h6>$ 14.900</h6></br>
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Acondicionador Brillo Extraordinario Formulado" name="pro"> 
+	<input type="hidden" value="14900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+
+	</center></br>
+
+
+	</li>
+	<li><img src="./Img/p10.jpg">
+	<center>
+	<a href=""><h4>Away Glamour Para Ella</h4></a>
+	<img src="./Img/clf5.png"></br>
+
+	<h6>$ 49.900</h6></br>
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Away Glamour Para Ella" name="pro"> 
+	<input type="hidden" value="49900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+	</center>
+
+
+
+	</li>
+	<li><img src="./Img/p11.jpg">
+     <center>
+
+	<a href=""><h4>Crema Para Peinar Aceite De Argán y Coco</h4></a>
+	<img src="./Img/clf4.png"></br>
+
+	<h6>$ 13.900</h6></br>
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Crema Para Peinar Aceite De Argán y Coco" name="pro"> 
+	<input type="hidden" value="13900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+
+	</center>
+
+	</li>
+	<li><img src="./Img/p12.jpg">
+
+	<center>
+
+	<a href=""><h4>Shampoo Rizos Fabulosos</h4></a>
+	<img src="./Img/clf3.png"></br>
+
+	<h6>$ 23.900</h6></br>
+	<form action="carrito.php" method="POST">
+	<input type="hidden" value="Shampoo Rizos Fabulosos" name="pro"> 
+	<input type="hidden" value="23900" name="pre" > 
+	<input  type="submit" value="Añadir Al Carito "></br>
+	</form>
+
+
+
+	</center>
+
+
+	</li>
+</ul>
+
+	
+</div></br>
+
+
+
+
+<!--Contactos-->
+
+
+
+	<ul id="ul">
+		<li id="li">
+			<div id="dc1">
+				<center>
+				<h1>Contactanos</h1>
+				</center>
+
+				<p>
+					<h4>
+					    Avon Colombia S.A.S.</br>
+						NIT: 900.041.914-7</br>
+						Correo electrónico: clientes.colombia@avon.com</br>
+						Calle 14 # 52A - 272 Medellín, Antioquia</br></br>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3446031884837!2d-75.5837167!3d6.218206800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429ce2b3bffe7%3A0xf2998981297f9d25!2sCl.%2014%20%2352a-272%2C%20Medell%C3%ADn%2C%20Antioquia%2C%20Colombia!5e0!3m2!1ses!2sus!4v1651845432248!5m2!1ses!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+				</h4>
+				
+			</div></br>
+				
+			
+
+
+		</li>
+
+
+		<li id="li">
+			<div id="dc2">
+				<center>
+				<h1>Metodos De Pago </h1>
+				</center>
+
+				<h4>Tarjeta De Credito:</h4>
+				<ul id="ul">
+					<li id="li">
+						<a href="https://www.visa.com.ar/"><img src="./Img/m1.jpg
+						" width="50pX" height="50px"></a>
+					</li>
+					<li id="li">
+						<a href="https://www.mastercard.us/en-us.html"><img src="./Img/m2.png" width="50px" height="50px"></a>
+						
+					</li>
+
+					<li id="li">
+						<a href="https://www.americanexpress.com/"><img src="./Img/m3.png" width="50px" height="50px">
+						</a>
+					</li>
+				</ul>
+
+				<h4>Efectivo</h4></br>
+
+				<ul id="ul">
+					<li id="li">
+						<a href="https://www.efecty.com.co/web/"><img src="./Img/m4.png" width="50px" height="50px"></a>
+					</li>
+					<li id="li">
+						<a href="https://www.baloto.com/puntos-baloto/"><img src="./Img/m5.png" width="100" height="50px"></a>
+					</li>
+
+					<li id="li">
+						<a href="https://www.sured.com.co/"><img src="./Img/m6.png" width="50px" height="50px"></a>
+					</li>
+				</ul>
+
+
+				<h4>Pago De Bancos</h4></br>
+				<ul id="ul">
+					<li id="li">
+						<a href="https://www.davivienda.com/wps/portal/personas/nuevo"><img src="./Img/m7.png" width="110px" height="50px"></a>
+					</li>
+
+					<li id="li">
+						<a href="https://www.bancodebogota.com/wps/portal/banco-de-bogota/bogota"><img src="./Img/m8.jpg" width="110px" height="50px"></a>
+					</li>
+				</ul></br>
+
+				<a href="https://www.bancolombia.com/personas" id="ban"><img src="./Img/m9.png" width="120px" height=""></a>
+
+
+
+
+				
+			</div>
+		</li>
+
+			<li id="li" >
+				<div id="dc3">
+					<center>
+						<h1>Nuestras Redes Sociales </h1>
+					</center></br>
+
+					<ul id="ul">
+						<li class="rs" id="li">
+							<img src="./Img/rs1.png" width="45px" height="45px">
+							<a href="https://www.facebook.com/AvonCO" id="rs"><h4>Facebook</h4></a>
+						</li>
+					</ul>
+
+					<ul id="ul">
+						<li class="rs" id="li">
+							<img src="./Img/rs2.png" width="50px" height="50px">
+							<a href="https://www.whatsapp.com/" id="rs"><h4>whatsapp</h4></a>
+						</li>
+					</ul>
+
+
+					<ul id="ul">
+						<li class="rs" id="li">
+							<img src="./Img/rs3.png" width="50px" height="50px">
+							<a href="https://www.youtube.com/user/avoncolombia" id="rs"><h4>Youtube</h4></a>
+						</li>
+					</ul>
+
+					<ul id="ul">
+						<li class="rs" id="li">
+							<img src="./Img/rs4.png" width="50px" height="50px">
+							<a href="https://twitter.com/avon_colombia" id="rs"><h4>Twitter</h4></a>
+						</li>
+					</ul>
+
+					<ul id="ul">
+						<li class="rs" id="li">
+							<img src="./Img/rs5.png" width="50px" height="50px">
+							<a href="https://www.instagram.com/accounts/login/?next=/avon_col/" id="rs"><h4>Instagram</h4></a>
+						</li>
+					</ul>
+
+
+
+
+
+
+
+
+
+					
+				</div>
+			</li>
+		</ul>
+
+
+
+
+
+
+
+
+
+
+	
+</body>
+</html>
+
+
+
+
